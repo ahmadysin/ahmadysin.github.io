@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>كوكب لازورد</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #001f3f;
+      color: white;
+      text-align: center;
+      padding: 50px;
+      direction: rtl;
+    }
+
+    h1 {
+      color: #7FDBFF;
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.5em;
+    }
+
+    a {
+      color: #FFDC00;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>مرحبًا بك في كوكب لازورد 🌍</h1>
+  <p>هذا موقع تجريبي تم رفعه عبر GitHub Pages.</p>
+  <p>تم الإنشاء بواسطة أحمد 💙</p>
+</body>
+</html>
