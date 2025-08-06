@@ -1,80 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="الموقع الرسمي للكاتب أحمد خضر ياسين، مؤلف رواية كوكب لازورد. ب لازورد، مشروع فكري وإنساني يُعبر عن رؤية لعالم أفضل." />
-  <meta name="keywords" content="أحمد خضر ياسين، كوكب لازورد، Ahmad Khedir Yaseen, Planet Lazurd, أدب المستقبل، رواية، خيال علمي، أدب إنساني، فكر" />
-  <meta name="author" content="Ahmad Khedir Yaseen" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="أحمد خضر ياسين - كوكب لازورد" />
-  <meta property="og:description" content="اكتشف عالم كوكب لازورد، الرواية التي تعيد تعريف الخير والوعي في الكون. بقلم أحمد خضر ياسين." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://ahmadysin.github.io/" />
-
-  <title>أحمد خضر ياسين | كوكب لازورد</title>
+  <meta name="description" content="الموقع الرسمي للكاتب أحمد خضر ياسين، مؤلف رواية كوكب لازورد - مشروع فكري وإنساني يعبر عن رؤية لعالم أفضل." />
+  <meta name="keywords" content="أحمد خضر ياسين، كوكب لازورد، Planet Lazurd, Ahmad Kheder Yaseen, رواية خيال علمي، وعي، فكر، إنسان" />
+  <meta name="author" content="Ahmad Kheder Yaseen" />
+  <title>أحمد خضر ياسين - كوكب لازورد</title>
 
   <style>
     body {
       margin: 0;
+      padding: 0;
       font-family: 'Arial', sans-serif;
-      background-color: #000d1a;
-      color: #ffffff;
+      background: url('stars-bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
       text-align: center;
-      direction: rtl;
     }
 
     .container {
-      padding: 80px 20px;
-    }
-
-    h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 1.2em;
-      margin: 10px 0;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
-      font-size: 1em;
-      color: #ffffff;
-      background-color: transparent;
-      border: 1px solid #ffffff;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background-color 0.3s;
-    }
-
-    .button:hover {
-      background-color: #1a2d4d;
+      padding: 5vh 2rem;
     }
 
     .planet {
       width: 180px;
-      margin-top: 40px;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+    .hero-image {
+      width: 200px;
+      border-radius: 50%;
+      border: 3px solid #00ffff;
+      margin: 20px auto;
+      box-shadow: 0 0 25px #00ffff;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin: 0.5em 0;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    .btn {
+      margin-top: 20px;
+      padding: 12px 24px;
+      font-size: 1em;
+      background-color: #00ffff;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #00cccc;
+    }
+
+    footer {
+      margin-top: 50px;
+      font-size: 0.9em;
+      color: #bbb;
     }
   </style>
 </head>
-
 <body>
+  <img src="lazurd-planet.png" class="planet" alt="كوكب لازورد" />
   <div class="container">
+    <img src="king.png" class="hero-image" alt="الملك الحكيم - كوكب لازورد" />
     <h1>Ahmad Kheder Yaseen</h1>
     <p>مرحبًا، أنا أحمد خضر ياسين، مؤلف كوكب لازورد</p>
     <p>Hello, I'm Ahmad Kheder Yaseen, author of Planet Lazurd</p>
-
-    <a href="#" class="button">إقرأ عن كوكب لازورد</a>
-
-    <div>
-      <img class="planet" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Blue_Planet.svg/1024px-Blue_Planet.svg.png" alt="كوكب لازورد">
-    </div>
+    <a href="#about" class="btn">اقرأ عن كوكب لازورد</a>
   </div>
+
+  <footer>
+    &copy; 2025 Ahmad Kheder Yaseen – Planet Lazurd
+  </footer>
 </body>
 </html>
