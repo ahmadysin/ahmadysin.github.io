@@ -3,73 +3,78 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" content="الموقع الرسمي للكاتب أحمد خضر ياسين، مؤلف رواية كوكب لازورد، مشروع فكري وإنساني يُعبّر عن رؤية لعالمٍ أفضل.">
-<meta name="keywords" content="أحمد خضر ياسين, كوكب لازورد, Planet Lazurd, رواية, فلسفة, مشروع إنساني, أدب عربي, موقع رسمي, فكر, أدب المستقبل, روايات خيال علمي, رواية كوكب لازورد, Ahmad Khedir Yasin">
-<meta name="author" content="Ahmad Khedir Yasin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="الموقع الرسمي للكاتب أحمد خضر ياسين، مؤلف رواية كوكب لازورد. ب لازورد، مشروع فكري وإنساني يُعبر عن رؤية لعالم أفضل." />
+  <meta name="keywords" content="أحمد خضر ياسين، كوكب لازورد، Ahmad Khedir Yaseen, Planet Lazurd, أدب المستقبل، رواية، خيال علمي، أدب إنساني، فكر" />
+  <meta name="author" content="Ahmad Khedir Yaseen" />
 
-<!-- Open Graph -->
-<meta property="og:title" content="أحمد خضر ياسين - كوكب لازورد">
-<meta property="og:description" content="اكتشف عالم كوكب لازورد، الرواية التي تعيد تعريف الخير والوعي في الكون. بقلم أحمد خضر ياسين.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://ahmadysin.github.io/">
-<meta property="og:image" content="https://cdn.pixabay.com/photo/2016/11/29/04/17/space-1867618_1280.jpg">
-  <title>كوكب لازورد</title>
+  <!-- Open Graph -->
+  <meta property="og:title" content="أحمد خضر ياسين - كوكب لازورد" />
+  <meta property="og:description" content="اكتشف عالم كوكب لازورد، الرواية التي تعيد تعريف الخير والوعي في الكون. بقلم أحمد خضر ياسين." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ahmadysin.github.io/" />
+
+  <title>أحمد خضر ياسين | كوكب لازورد</title>
+
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('https://cdn.pixabay.com/photo/2016/11/29/04/17/space-1867618_1280.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: white;
+      font-family: 'Arial', sans-serif;
+      background-color: #000d1a;
+      color: #ffffff;
       text-align: center;
+      direction: rtl;
     }
-    header {
-      padding: 80px 20px 40px;
-      background-color: rgba(0, 0, 0, 0.5);
+
+    .container {
+      padding: 80px 20px;
     }
+
     h1 {
-      font-size: 2.5em;
-      color: #00cfff;
+      font-size: 3em;
+      margin-bottom: 10px;
     }
+
     p {
       font-size: 1.2em;
-      color: #ccc;
+      margin: 10px 0;
     }
-    .explore-button {
+
+    .button {
+      display: inline-block;
       margin-top: 30px;
-      padding: 12px 30px;
+      padding: 12px 24px;
       font-size: 1em;
-      background-color: gold;
-      color: black;
-      border: none;
+      color: #ffffff;
+      background-color: transparent;
+      border: 1px solid #ffffff;
       border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s;
+      text-decoration: none;
+      transition: background-color 0.3s;
     }
-    .explore-button:hover {
-      background-color: #ffd700;
+
+    .button:hover {
+      background-color: #1a2d4d;
     }
-    #about {
-      margin-top: 100px;
-      padding: 50px 20px;
-      background-color: rgba(0, 0, 0, 0.6);
+
+    .planet {
+      width: 180px;
+      margin-top: 40px;
     }
   </style>
 </head>
+
 <body>
+  <div class="container">
+    <h1>Ahmad Kheder Yaseen</h1>
+    <p>مرحبًا، أنا أحمد خضر ياسين، مؤلف كوكب لازورد</p>
+    <p>Hello, I'm Ahmad Kheder Yaseen, author of Planet Lazurd</p>
 
-  <header>
-    <h1>مرحباً بكم في كوكب لازورد</h1>
-    <p>الموقع الرسمي للمؤلف أحمد خضر ياسين</p>
-    <button class="explore-button" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
-      استكشف
-    </button>
-  </header>
+    <a href="#" class="button">إقرأ عن كوكب لازورد</a>
 
-  <section id="about">
-    <h2>من هو أحمد خضر ياسين؟</h2>
-    <p>كاتب ومفكر سوري، مؤلف رواية "كوكب لازورد"، وهي رحلة فكرية إلى عالم مثالي يعكس أسمى ما يمكن للإنسان أن يكون.</p>
-  </section>
-
+    <div>
+      <img class="planet" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Blue_Planet.svg/1024px-Blue_Planet.svg.png" alt="كوكب لازورد">
+    </div>
+  </div>
 </body>
 </html>
