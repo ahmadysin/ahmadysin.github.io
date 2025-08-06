@@ -1,12 +1,64 @@
+
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <title>كوكب لازورد - أحمد خضر ياسين</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>كوكب لازورد</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: black url('https://i.ibb.co/SB7n6hH/stars-bg.jpg') repeat;
+      color: white;
+      text-align: center;
+    }
+    header {
+      padding: 80px 20px 40px;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #00cfff;
+    }
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+    .explore-button {
+      margin-top: 30px;
+      padding: 12px 30px;
+      font-size: 1em;
+      background-color: gold;
+      color: black;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .explore-button:hover {
+      background-color: #ffd700;
+    }
+    #about {
+      margin-top: 100px;
+      padding: 50px 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+  </style>
 </head>
-<body style="text-align:center; font-family: Arial;">
+<body>
+
+  <header>
     <h1>مرحباً بكم في كوكب لازورد</h1>
-    <p>هذا الموقع الرسمي للمؤلف أحمد خضر ياسين</p>
-    <p>ترقبوا المزيد قريباً...</p>
+    <p>الموقع الرسمي للمؤلف أحمد خضر ياسين</p>
+    <button class="explore-button" onclick="document.getElementById('about').scrollIntoView({ behavior: 'smooth' })">
+      استكشف
+    </button>
+  </header>
+
+  <section id="about">
+    <h2>من هو أحمد خضر ياسين؟</h2>
+    <p>كاتب ومفكر سوري، مؤلف رواية "كوكب لازورد"، وهي رحلة فكرية إلى عالم مثالي يعكس أسمى ما يمكن للإنسان أن يكون.</p>
+  </section>
+
 </body>
 </html>
